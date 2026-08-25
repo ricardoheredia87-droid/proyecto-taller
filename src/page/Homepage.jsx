@@ -3,14 +3,14 @@ import Logo from "../../public/screen.png";
 export const Homepage = () => {
   return (
     <div className="relative w-full min-h-screen overflow-hidden shadow-2xl">
-      {/* Imagen de fondo */}
+      
       <img
         src={Logo}
         alt="Servicio Automotor"
         className="w-full h-full object-cover absolute inset-0"
       />
 
-      {/* Capa oscura (Overlay) con contenido */}
+      
       <div className="absolute inset-0 bg-black/60 flex flex-col justify-center items-start p-8 md:p-16 text-white gap-6">
         <h1 className="text-3xl md:text-5xl font-bold">
           Lo que tu vehículo merece.

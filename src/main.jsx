@@ -6,7 +6,7 @@ import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import Homepage from "./page/Homepage.jsx";
 import MainLayout from "./Layouts/MainLayout.jsx";
 import AbautsPage from "./page/AbautsPage.jsx";
-import Login from "./Componente/Login.jsx";
+import Login from "./Componente/login.jsx";
 import Servicio from "./page/ServicioPage.jsx";
 import Contacto from "./page/ContactoPage.jsx";
 
