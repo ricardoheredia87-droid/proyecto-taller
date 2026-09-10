@@ -15,11 +15,10 @@ export const Login = () => {
           <a
             href="https://wa.me/549S2235244383"
             target="_blank"
-            rel="noopener noreferrer">
-              Quiero mi descuento
-           </a>
-
-          
+            rel="noopener noreferrer"
+          >
+            Quiero mi descuento
+          </a>
         </button>
       </div>
 

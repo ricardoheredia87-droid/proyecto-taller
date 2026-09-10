@@ -26,7 +26,6 @@ export const AboutPage = () => {
           </p>
         </div>
 
-        {/* Línea de tiempo / Pasos */}
         <div className="relative border-l-2 border-slate-800 ml-4 sm:ml-32 md:ml-40 space-y-10 my-12">
           {/* Paso 1 */}
           <div className="relative pl-8 sm:pl-12 group">
@@ -55,7 +54,6 @@ export const AboutPage = () => {
             </div>
           </div>
 
-          {/* Paso 2 */}
           <div className="relative pl-8 sm:pl-12 group">
             <div className="absolute -left-6 top-1.5 bg-slate-900 border-2 border-blue-500 p-2.5 rounded-full text-blue-500 shadow-lg shadow-blue-500/20 group-hover:scale-110 transition-transform duration-300">
               <Search className="w-7 h-7" />
@@ -82,7 +80,6 @@ export const AboutPage = () => {
             </div>
           </div>
 
-          {/* Paso 3 */}
           <div className="relative pl-8 sm:pl-12 group">
             <div className="absolute -left-6 top-1.5 bg-slate-900 border-2 border-blue-500 p-2.5 rounded-full text-blue-500 shadow-lg shadow-blue-500/20 group-hover:scale-110 transition-transform duration-300">
               <Wrench className="w-7 h-7" />
@@ -109,7 +106,6 @@ export const AboutPage = () => {
             </div>
           </div>
 
-          {/* Paso 4 */}
           <div className="relative pl-8 sm:pl-12 group">
             <div className="absolute -left-6 top-1.5 bg-slate-900 border-2 border-blue-500 p-2.5 rounded-full text-blue-500 shadow-lg shadow-blue-500/20 group-hover:scale-110 transition-transform duration-300">
               <ShieldCheck className="w-7 h-7" />
@@ -136,7 +132,6 @@ export const AboutPage = () => {
             </div>
           </div>
 
-          {/* Paso 5 */}
           <div className="relative pl-8 sm:pl-12 group">
             <div className="absolute -left-6 top-1.5 bg-slate-900 border-2 border-blue-500 p-2.5 rounded-full text-blue-500 shadow-lg shadow-blue-500/20 group-hover:scale-110 transition-transform duration-300">
               <Car className="w-7 h-7" />
@@ -164,7 +159,6 @@ export const AboutPage = () => {
           </div>
         </div>
 
-        {/* Banner inferior de WhatsApp */}
         <div className="mt-16 bg-linear-to-br from-blue-950/50 via-slate-900 to-slate-900 border border-blue-900/40 rounded-3xl p-6 sm:p-8 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-5">
             <div className="p-4 bg-blue-600/20 text-blue-400 rounded-2xl shrink-0 border border-blue-500/30">
