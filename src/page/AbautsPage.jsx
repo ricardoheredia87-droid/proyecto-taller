@@ -8,13 +8,14 @@ import {
   ArrowRight,
 } from "lucide-react";
 
-export const AbautsPage = () => {
+export const AboutPage = () => {
   return (
     <section className="bg-slate-950 text-white py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
+        {/* Encabezado */}
         <div className="text-center mb-16">
           <span className="text-blue-500 font-semibold text-xs sm:text-sm tracking-widest uppercase">
-            Transparencia & Paso a Paso
+            Transparencia &amp; Paso a Paso
           </span>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-black mt-2 tracking-tight">
             Proceso de Atención
@@ -25,9 +26,11 @@ export const AbautsPage = () => {
           </p>
         </div>
 
+        {/* Línea de tiempo / Pasos */}
         <div className="relative border-l-2 border-slate-800 ml-4 sm:ml-32 md:ml-40 space-y-10 my-12">
+          {/* Paso 1 */}
           <div className="relative pl-8 sm:pl-12 group">
-            <div className="absolute -left-[25px] top-1.5 bg-slate-900 border-2 border-blue-500 p-2.5 rounded-full text-blue-500 shadow-lg shadow-blue-500/20 group-hover:scale-110 transition-transform duration-300">
+            <div className="absolute -left-6 top-1.5 bg-slate-900 border-2 border-blue-500 p-2.5 rounded-full text-blue-500 shadow-lg shadow-blue-500/20 group-hover:scale-110 transition-transform duration-300">
               <ClipboardCheck className="w-7 h-7" />
             </div>
             <span className="hidden sm:block absolute -left-32 top-3 text-xs font-extrabold uppercase tracking-widest text-gray-500 group-hover:text-blue-400 transition-colors">
@@ -52,8 +55,9 @@ export const AbautsPage = () => {
             </div>
           </div>
 
+          {/* Paso 2 */}
           <div className="relative pl-8 sm:pl-12 group">
-            <div className="absolute -left-[25px] top-1.5 bg-slate-900 border-2 border-blue-500 p-2.5 rounded-full text-blue-500 shadow-lg shadow-blue-500/20 group-hover:scale-110 transition-transform duration-300">
+            <div className="absolute -left-6 top-1.5 bg-slate-900 border-2 border-blue-500 p-2.5 rounded-full text-blue-500 shadow-lg shadow-blue-500/20 group-hover:scale-110 transition-transform duration-300">
               <Search className="w-7 h-7" />
             </div>
             <span className="hidden sm:block absolute -left-32 top-3 text-xs font-extrabold uppercase tracking-widest text-gray-500 group-hover:text-blue-400 transition-colors">
@@ -78,8 +82,9 @@ export const AbautsPage = () => {
             </div>
           </div>
 
+          {/* Paso 3 */}
           <div className="relative pl-8 sm:pl-12 group">
-            <div className="absolute -left-[25px] top-1.5 bg-slate-900 border-2 border-blue-500 p-2.5 rounded-full text-blue-500 shadow-lg shadow-blue-500/20 group-hover:scale-110 transition-transform duration-300">
+            <div className="absolute -left-6 top-1.5 bg-slate-900 border-2 border-blue-500 p-2.5 rounded-full text-blue-500 shadow-lg shadow-blue-500/20 group-hover:scale-110 transition-transform duration-300">
               <Wrench className="w-7 h-7" />
             </div>
             <span className="hidden sm:block absolute -left-32 top-3 text-xs font-extrabold uppercase tracking-widest text-gray-500 group-hover:text-blue-400 transition-colors">
@@ -104,8 +109,9 @@ export const AbautsPage = () => {
             </div>
           </div>
 
+          {/* Paso 4 */}
           <div className="relative pl-8 sm:pl-12 group">
-            <div className="absolute -left-[25px] top-1.5 bg-slate-900 border-2 border-blue-500 p-2.5 rounded-full text-blue-500 shadow-lg shadow-blue-500/20 group-hover:scale-110 transition-transform duration-300">
+            <div className="absolute -left-6 top-1.5 bg-slate-900 border-2 border-blue-500 p-2.5 rounded-full text-blue-500 shadow-lg shadow-blue-500/20 group-hover:scale-110 transition-transform duration-300">
               <ShieldCheck className="w-7 h-7" />
             </div>
             <span className="hidden sm:block absolute -left-32 top-3 text-xs font-extrabold uppercase tracking-widest text-gray-500 group-hover:text-blue-400 transition-colors">
@@ -130,8 +136,9 @@ export const AbautsPage = () => {
             </div>
           </div>
 
+          {/* Paso 5 */}
           <div className="relative pl-8 sm:pl-12 group">
-            <div className="absolute -left-[25px] top-1.5 bg-slate-900 border-2 border-blue-500 p-2.5 rounded-full text-blue-500 shadow-lg shadow-blue-500/20 group-hover:scale-110 transition-transform duration-300">
+            <div className="absolute -left-6 top-1.5 bg-slate-900 border-2 border-blue-500 p-2.5 rounded-full text-blue-500 shadow-lg shadow-blue-500/20 group-hover:scale-110 transition-transform duration-300">
               <Car className="w-7 h-7" />
             </div>
             <span className="hidden sm:block absolute -left-32 top-3 text-xs font-extrabold uppercase tracking-widest text-gray-500 group-hover:text-blue-400 transition-colors">
@@ -157,7 +164,8 @@ export const AbautsPage = () => {
           </div>
         </div>
 
-        <div className="mt-16 bg-gradient-to-br from-blue-950/50 via-slate-900 to-slate-900 border border-blue-900/40 rounded-3xl p-6 sm:p-8 flex flex-col md:flex-row items-center justify-between gap-6">
+        {/* Banner inferior de WhatsApp */}
+        <div className="mt-16 bg-linear-to-br from-blue-950/50 via-slate-900 to-slate-900 border border-blue-900/40 rounded-3xl p-6 sm:p-8 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-5">
             <div className="p-4 bg-blue-600/20 text-blue-400 rounded-2xl shrink-0 border border-blue-500/30">
               <MessageCircle className="w-8 h-8" />
@@ -182,4 +190,5 @@ export const AbautsPage = () => {
     </section>
   );
 };
-export default AbautsPage;
+
+export default AboutPage;

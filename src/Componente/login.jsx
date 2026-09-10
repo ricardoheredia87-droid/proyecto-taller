@@ -12,7 +12,14 @@ export const Login = () => {
           </p>
         </div>
         <button className="rounded-xl border border-black bg-black text-white font-bold text-lg px-6 py-3 hover:bg-slate-800 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-black/20 cursor-pointer whitespace-nowrap">
-          Quiero mi descuento
+          <a
+            href="https://wa.me/549S2235244383"
+            target="_blank"
+            rel="noopener noreferrer">
+              Quiero mi descuento
+           </a>
+
+          
         </button>
       </div>
 
