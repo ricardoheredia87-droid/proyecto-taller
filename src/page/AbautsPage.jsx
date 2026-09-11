@@ -165,21 +165,32 @@ export const AboutPage = () => {
               <MessageCircle className="w-8 h-8" />
             </div>
             <div>
-              <h4 className="text-lg sm:text-xl font-bold text-white">
-                Seguimiento por WhatsApp
-              </h4>
+              
+               <div className="text-lg sm:text-xl font-bold text-white">
+              
+               Seguimiento por WhatsApp
+              
+
+                
               <p className="text-sm text-gray-400 mt-1">
                 Enviamos fotos y actualizaciones sobre el avance del trabajo de
                 forma continua.
               </p>
+              </div>
+              </div>
             </div>
           </div>
 
-          <button className="w-full md:w-auto px-7 py-3.5 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-xl transition-all duration-300 hover:-translate-y-1 hover:shadow-lg flex items-center justify-center gap-2 cursor-pointer whitespace-nowrap">
+         
+          <a 
+                href="https://wa.me/+5493815512010"
+                target="_blank"
+                rel="noopener noreferrer"
+          className="w-full md:w-auto px-7 py-3.5 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-xl transition-all duration-300 hover:-translate-y-1 hover:shadow-lg flex items-center justify-center gap-2 cursor-pointer whitespace-nowrap">
             <span>Agendar turno</span>
             <ArrowRight className="w-4 h-4" />
-          </button>
-        </div>
+          </a>
+        
       </div>
     </section>
   );

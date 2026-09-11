@@ -18,7 +18,7 @@ export const ContactoPage = () => {
             <aside className="flex flex-col gap-4 pt-6 border-t border-stone-800">
               <div className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-blue-500 shrink-0" />
-                <p className="text-gray-300 font-medium">+54 9 3815512010</p>
+                <p className="text-gray-300 font-medium">+5493815512010</p>
               </div>
 
               <div className="flex items-center gap-3">
@@ -31,7 +31,7 @@ export const ContactoPage = () => {
               <div className="flex items-center gap-3">
                 <MapPin className="w-5 h-5 text-blue-500 shrink-0" />
                 <p className="text-gray-300 font-medium">
-                  Lidoro Quinteros 1100
+                  Lidoro Quinteros 1156
                 </p>
               </div>
             </aside>
@@ -83,19 +83,20 @@ export const ContactoPage = () => {
               />
             </label>
 
-            <button className="w-full py-3 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-xl transition-all duration-300 cursor-pointer mt-2">
+            <a className="w-full sm:w-auto flex items-center justify-center gap-3  bg-blue-900 hover:bg-blue-700 text-white font-bold px-6 py-3.5 rounded-2xl shadow-lg select-none cursor-pointer whitespace-nowrap transition-all duration-300 hover:-translate-y-1 hover:shadow-amber-400/20"
+              href="https://wa.me/+5493815512010"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Enviar consulta
-            </button>
+            </a>
           </div>
         </div>
 
         <div className="w-full h-96 bg-stone-950 border border-stone-800 rounded-xl overflow-hidden shadow-2xl relative">
           <iframe
-            title="Ubicación del Taller Mecánico - Lidoro Quinteros 1188"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.0185694269007!2d-65.25466082477833!3d-26.83936167669263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c9048b88f1f%3A0x25c26c539bcdabc2!2sLidoro%20Quinteros%201188%2C%20T4000%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1788028050982!5m2!1ses-419!2sar"
-            width="100%"
-            height="100%"
-            style={{ border: 0 }}
+            title="Ubicación del Taller Mecánico - Lidoro Quinteros 1156"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d845.9696739860552!2d-65.25255823042131!3d-26.83913149854318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d9e1ffd0605%3A0x5b8b6692f2ad9216!2sMAS%20servicio%20automotriz!5e1!3m2!1ses-419!2sar!4v1789137974532!5m2!1ses-419!2sar" 
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"

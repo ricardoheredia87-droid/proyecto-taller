@@ -18,15 +18,14 @@ export const Homepage = () => {
           correctivo con tecnología de diagnóstico, técnicos especializados y
           garantías en cada servicio.
         </p>
-        <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
-          <a
+        <div className=" flex items-center justify-center gap-3  bg-amber-400 hover:bg-blue-700 text-black font-bold px-6 py-3.5 rounded-2xl shadow-lg select-none cursor-pointer whitespace-nowrap transition-all duration-300 hover:-translate-y-1 hover:shadow-amber-400/20"  
             href="https://wa.me/+5493815512010"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full sm:w-auto flex items-center justify-center gap-3 bg-amber-400 hover:bg-amber-300 text-slate-900 font-bold px-6 py-3.5 rounded-2xl shadow-lg select-none cursor-pointer whitespace-nowrap transition-all duration-300 hover:-translate-y-1 hover:shadow-amber-400/20"
-          >
+             >
+          
             <span className="text-sm font-bold">Agendar por WhatsApp</span>
-          </a>
+        
 
          { /*<a
             link="/contacto"
