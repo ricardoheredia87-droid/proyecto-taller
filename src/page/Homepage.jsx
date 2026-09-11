@@ -18,7 +18,7 @@ export const Homepage = () => {
           correctivo con tecnología de diagnóstico, técnicos especializados y
           garantías en cada servicio.
         </p>
-        <div className=" flex items-center justify-center gap-3  bg-amber-400 hover:bg-blue-700 text-black font-bold px-6 py-3.5 rounded-2xl shadow-lg select-none cursor-pointer whitespace-nowrap transition-all duration-300 hover:-translate-y-1 hover:shadow-amber-400/20"  
+        <a className=" flex items-center justify-center gap-3  bg-amber-400 hover:bg-blue-700 text-black font-bold px-6 py-3.5 rounded-2xl shadow-lg select-none cursor-pointer whitespace-nowrap transition-all duration-300 hover:-translate-y-1 hover:shadow-amber-400/20"  
             href="https://wa.me/+5493815512010"
             target="_blank"
             rel="noopener noreferrer"
@@ -33,7 +33,7 @@ export const Homepage = () => {
           >
             <span className="text-sm font-bold">Solicitar Cotización</span>
           </a>*/}
-        </div>
+        </a>
       </div>
     </div>
   );
