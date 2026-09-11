@@ -35,9 +35,13 @@ const NavBar = () => {
         <Link to="/Contacto" className="cursor-pointer">
           Contacto
         </Link>
-        <button className="py-2 px-4 rounded-3xl bg-blue-900 text-white cursor-pointer">
+        <a className="py-2 px-4 rounded-3xl bg-blue-900 text-white cursor-pointer"
+        href="https://wa.me/+54 9 3815512010"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
           Agregar cita
-        </button>
+        </a>
       </div>
       <button onClick={toggleMenu} className=" md:hidden cursor-pointer">
         {menuAbierto ? <X /> : <Menu />}
@@ -59,12 +63,16 @@ const NavBar = () => {
           <Link to="/Contacto" onClick={toggleMenu} className="cursor-pointer">
             Contacto
           </Link>
-          <button
+
+         <a
+            href="https://wa.me/+54 9 3815512010"
+            target="_blank"
+            rel="noopener noreferrer"
             onClick={toggleMenu}
             className="py-2 px-8 rounded-3xl bg-blue-700 text-white cursor-pointer mt-2"
           >
             Agregar
-          </button>
+          </a>
         </div>
       )}
     </div>
