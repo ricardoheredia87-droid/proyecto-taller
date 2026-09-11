@@ -36,7 +36,7 @@ const NavBar = () => {
           Contacto
         </Link>
         <a className="py-2 px-4 rounded-3xl bg-blue-900 text-white cursor-pointer"
-        href="https://wa.me/+54 9 3815512010"
+        href="https://wa.me/+5493815512010"
             target="_blank"
             rel="noopener noreferrer"
         >
@@ -65,7 +65,7 @@ const NavBar = () => {
           </Link>
 
          <a
-            href="https://wa.me/+54 9 3815512010"
+            href="https://wa.me/+5493815512010"
             target="_blank"
             rel="noopener noreferrer"
             onClick={toggleMenu}
