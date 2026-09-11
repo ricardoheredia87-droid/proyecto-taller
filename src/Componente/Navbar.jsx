@@ -35,10 +35,11 @@ const NavBar = () => {
         <Link to="/Contacto" className="cursor-pointer">
           Contacto
         </Link>
-        <a className="py-2 px-4 rounded-3xl bg-blue-900 text-white cursor-pointer"
-        href="https://wa.me/+5493815512010"
-            target="_blank"
-            rel="noopener noreferrer"
+        <a
+          className="py-2 px-4 rounded-3xl bg-blue-900 text-white cursor-pointer"
+          href="https://wa.me/+5493815512010"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Agregar cita
         </a>
@@ -64,7 +65,7 @@ const NavBar = () => {
             Contacto
           </Link>
 
-         <a
+          <a
             href="https://wa.me/+5493815512010"
             target="_blank"
             rel="noopener noreferrer"

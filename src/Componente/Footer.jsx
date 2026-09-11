@@ -42,7 +42,8 @@ export const Footer = () => {
                   href="https://maps.app.goo.gl/6dXq5qXvSW65VZmx8"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center space-x-2 hover:text-yellow-400">
+                  className="flex items-center space-x-2 hover:text-yellow-400"
+                >
                   <MapPin className="h-4 w-4 text-yellow-400 shrink-0" />
                   <span>Lidoro quintero 1156</span>
                 </a>
@@ -52,7 +53,8 @@ export const Footer = () => {
                   href="https://wa.me/+54 9 3815512010"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center space-x-2 hover:text-yellow-400">
+                  className="flex items-center space-x-2 hover:text-yellow-400"
+                >
                   <Phone className="h-4 w-4 text-yellow-400 shrink-0" />
                   <span>+5493815512010</span>
                 </a>
