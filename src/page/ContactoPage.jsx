@@ -10,15 +10,20 @@ export const ContactoPage = () => {
               <h2 className="text-3xl font-bold text-gray-300">Contáctanos</h2>
               <p className="text-gray-400 leading-relaxed mt-4">
                 Estamos listos para atender tu vehículo y brindarte el mejor
-                servicio. Por favor, completa el formulario y nos pondremos en
-                contacto contigo lo antes posible.
+                servicio. 
               </p>
             </div>
 
             <aside className="flex flex-col gap-4 pt-6 border-t border-stone-800">
               <div className="flex items-center gap-3">
+                <a href="https://wa.me/+5493815512010"
+               target="_blank"
+               rel="noopener noreferrer"
+                className="flex items-center space-x-2 hover:text-yellow-400">
                 <Phone className="w-5 h-5 text-blue-500 shrink-0" />
-                <p className="text-gray-300 font-medium">+5493815512010</p>
+                <span className="font-medium">
+                  +5493815512010</span>
+              </a>
               </div>
 
               <div className="flex items-center gap-3">
@@ -29,10 +34,16 @@ export const ContactoPage = () => {
               </div>
 
               <div className="flex items-center gap-3">
-                <MapPin className="w-5 h-5 text-blue-500 shrink-0" />
-                <p className="text-gray-300 font-medium">
+               <a
+                  href="https://maps.app.goo.gl/6dXq5qXvSW65VZmx8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center space-x-2 hover:text-yellow-400">
+                    <MapPin className="w-5 h-5 text-blue-500 shrink-0" />
+                <span className="font-medium">
                   Lidoro Quinteros 1156
-                </p>
+                </span>
+                </a>
               </div>
             </aside>
           </div>
