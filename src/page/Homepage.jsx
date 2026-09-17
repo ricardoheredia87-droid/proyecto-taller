@@ -26,12 +26,7 @@ export const Homepage = () => {
         >
           <span className="text-sm font-bold">Agendar por WhatsApp</span>
 
-          {/*<a
-            link="/contacto"
-            className="w-full sm:w-auto flex items-center justify-center bg-transparent border border-blue-500 hover:bg-blue-500/10 text-blue-500 font-bold px-8 py-3.5 rounded-2xl text-center text-sm select-none cursor-pointer whitespace-nowrap transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-blue-500/10"
-          >
-            <span className="text-sm font-bold">Solicitar Cotización</span>
-          </a>*/}
+         
         </a>
       </div>
     </div>
